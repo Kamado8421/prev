@@ -1,0 +1,73 @@
+.celula-cel {
+  width: 100%;
+  height: auto;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px){
+  .container {
+      width: 100%;
+  }
+
+}
+
+.section-imag{
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-e-cinza-brilhante-com-linhas-onduladas_1017-25101.jpg?w=2000) !important ;
+}
+
+
+@media (min-width: 768px){
+  .container {
+      width: 100%;
+  }
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+.column-image{
+  margin-right: 5%;
+}
+
+.image{
+  width: 100%;
+}
+
+.title{
+  padding: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  color: black;
+}
+
+section {
+  width: 100%;
+  display: block;
+}
+
+
+.boder-div{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+  backdrop-filter: blur(3.5px);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 6rem 3rem;
+  margin: 0;
+  z-index: 1;
+  overflow: visible;
+  position: relative;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.boder{
+  margin-top: 15%;
+}

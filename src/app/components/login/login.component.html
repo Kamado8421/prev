@@ -1,0 +1,53 @@
+<body>
+	<div class="container-body">
+	  <div class="container">
+	    <h1 class="header-container">Seu Login</h1>
+	    <div class="content">
+	      <form id="forms">
+	        <div class="box-input">
+	          <label for="email">Digite seu e-mail</label>
+	          <input type="text" placeholder="E-mail" id="email" name="email" required/>
+	        </div>
+	        <div class="box-input">
+	          <label for="password">Digite sua senha</label>
+	          <input type="password" placeholder="Senha" id="password" name="password" required/>
+	        </div>
+
+	        <div class="box-remember">
+	          <div class="remember">
+	           <input  type="checkbox" name="remember" id="remember"/>
+	           <label for="remember">Lembre-se de mim</label>
+	          </div>
+	          <div class="forget-pass">
+	            <a class="forget" href="#">Esqueci minha senha</a>
+	          </div>
+	        </div>
+
+	        <div class="buttons-line">
+            <a routerLink="/register">CRIAR CONTA</a>
+            <button type="submit">LOGIN</button>
+	        </div>
+
+	        <div class="options-login">
+	          <div class="separator">
+	            <div class="line"></div>
+	            <p>ou entrar com</p>
+	            <div class="line"></div>
+	          </div>
+
+	         <div class="logins">
+	           <div onclick="alert('login Google')"  class="google">
+	             <img class="icon-login" src="https://assets.materialup.com/uploads/bafac3b3-476a-4a65-ab1f-5e4568e506db/teaser.png" alt="google.ico" height="20px">
+	             <p>Conta do Google</p>
+	           </div>
+	           <div onclick="alert('login Facebook')" class="facebook">
+	             <img class="icon-login" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png" alt="facebook.ico" height="20px">
+	             <p>Conta do  Facebook</p>
+	           </div>
+	         </div>
+	        </div>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+</body>
